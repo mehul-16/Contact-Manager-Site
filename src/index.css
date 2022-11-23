@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    font-family: 'Lobster', cursive;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+	background-size: 150% 200% !important;
+	animation: gradient 1s ease-in-out infinite !important;
+	height: 100vh !important;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 75%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
